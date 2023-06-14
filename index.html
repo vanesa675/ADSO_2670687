@@ -145,21 +145,31 @@
                 <label for="Email">Digite Email</label>
                 <input type="Email" name="email" id="email" placeholder="Escriba su email" required=""><br> <br>
                 <label for="">Digite contraseña</label>
-                <input type="password" name="contraseña" id="contraseña" placeholder="Escriba su contraseña"><br> <br>
-                <label for="">Digite fecha</label>
+                <input type="password" name="contraseña" id="contraseña" placeholder="Escriba su contraseña" required=""><br> <br>
+                <label for="">Digite fecha de nacimiento</label>
                 <input type="date" name="fecha" id="fecha" placeholder="Escriba la fecha"><br> <br>
                 <label for="">Digite  numero </label>
-                <input type="number" name="numero" id="numero" placeholder="Digite numero"><br> <br>
+                <input type="number" name="numero" id="numero" placeholder="Digite numero" required=""><br> <br>
                 <label for="">Rango</label>
-                <input type="range" name="rango" id="rango" placeholder="Digite el rango"><br> <br>
+                <input type="range" name="rango" id="rango" placeholder="Digite el rango" required=""><br> <br>
                 <label for="">Telefono</label>
-                <input type="number" name="numero de telefono" id="numero de telefono" placeholder="Digite su numero de telefono"><br> <br>
+                <input type="number" name="numero de telefono" id="numero de telefono" placeholder="Digite su numero de telefono" required=""><br> <br>
                 <label for="">Checkbox (que desportes practica):</label><br> <br>
                 <input type="checkbox" id="seleccion 1">Futbol
                 <input type="checkbox" id="seleccion 2">Baloncesto
                 <input type="checkbox" id="seleccion 3">Voleibol <br> <br>
                 <label for="">Radio button (seleccione su genero):</label><br> <br>
-                <input type="radio" value="">Masculino<br> <br>
+                <input type="radio" name="radio" id="radio" placeholder="Seleccione su genero" required="">Masculino
+                <input type="radio" name="radio" id="radio" placeholder="Seleccione su genero" required="">Femenino<br> <br>
+                <label for="">Lista despegable (seleccione su comida favorita):</label><br> <br>
+                <select name="seleccionar" id="seleccionar">
+                    <OPtion value="opcion 1">Pizza</OPtion>
+                    <OPtion value="opcion 2">Mazorcada</OPtion>
+                    <OPtion value="opcion 3">Hamburguesa</OPtion>
+                    <OPtion value="opcion 4">Tacos</OPtion>
+                </select><br> <br>
+                <label for="">Cargar archivos:</label>
+                <input type="file" name="archivo" id="archivo" placeholder="cargue el archivo" required=""><br> <br>
                 <input type="button" value="Enviar">
                 <button value="Enviar" >registrar</button><br><br>
             </form>
