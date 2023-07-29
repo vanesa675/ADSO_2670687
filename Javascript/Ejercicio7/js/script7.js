@@ -5,5 +5,5 @@ let distancia = prompt(" cuantos kilometros recorrio el taxi");
 let tiempo= prompt(" en cuanto tiempo recorrio la carrera");
 let tPK = 15000;
 let tPM = 2000;
-let MAP = (distancia * tPK) + (tiempo * tPM);
+let MAP = parseInt(distancia * tPK) + parseInt(tiempo * tPM);
 alert("El monto a pagar por la carrera es: " + MAP);

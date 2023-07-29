@@ -15,8 +15,10 @@ let porcentajeParciales = 55/100;
 let porcentajeExamenFinal = 30/100; 
 let porcentajeTrabajoFinal = 15/100; 
       
-let promedioParciales = (califParcial1 + califParcial2 + califParcial3);
-let calificacionFinal = (promedioParciales * porcentajeParciales) + (califExamenFinal * porcentajeExamenFinal) + (califTrabajoFinal * porcentajeTrabajoFinal);
+let promedioParciales = parseInt(califParcial1 + califParcial2 + califParcial3);
+let calificacionFinal = parseInt(promedioParciales * porcentajeParciales) + parseInt(califExamenFinal * porcentajeExamenFinal) + parseInt(califTrabajoFinal * porcentajeTrabajoFinal);
       
 alert("La calificación final es: "+ calificacionFinal)
+
+
 
